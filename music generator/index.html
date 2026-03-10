@@ -1,53 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>AI Music Generator</title>
-
+<title>Music Generator</title>
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-<div class="background"></div>
+<h1>AI Music Generator</h1>
 
-<div class="container">
+<input type="text" id="scene" placeholder="Describe your scene">
 
-<h1 class="title">AI Music Generator</h1>
-
-<div class="search-box">
-
-<input type="text" id="prompt" placeholder="Describe the music you want...">
-
-<button onclick="generateMusic()">Generate</button>
-
-</div>
-
-<div class="visualizer" id="visualizer">
-
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-
-</div>
-
-<audio id="audio" controls></audio>
-
-</div>
+<button onclick="generateMusic()">Generate Music</button>
 
 <script src="script.js"></script>
 
